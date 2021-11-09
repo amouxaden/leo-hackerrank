@@ -41,8 +41,10 @@ def plusMinus(arr):
     
 
 if __name__ == '__main__':
-    n = int(input().strip())
 
-    arr = list(map(int, input().rstrip().split()))
-
+    arr = [1, 2, 3, -1, -2, -3, 0, 0]
+    print("expected:\n" + "0.375000\n0.375000\n0.250000\n")
+    print("result:" )
     plusMinus(arr)
+
+    
