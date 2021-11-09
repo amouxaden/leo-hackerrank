@@ -46,5 +46,3 @@ if __name__ == '__main__':
     print("expected:\n" + "0.375000\n0.375000\n0.250000\n")
     print("result:" )
     plusMinus(arr)
-
-    
